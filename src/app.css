@@ -3,6 +3,8 @@
 @import './prism.css';
 @import 'tailwindcss/utilities';
 
+@tailwind base;
+
 @layer base {
   body {
     @apply text-zinc-600 dark:text-zinc-400;
