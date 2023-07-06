@@ -21,11 +21,6 @@ const config = {
     adapter: adapter({
              pages: "docs",
           }),
-
-    // remove this if you don't want prerendering
-    prerender: {
-      entries: ['*', '/sitemap.xml', '/rss.xml']
-    }
   }
 }
 
