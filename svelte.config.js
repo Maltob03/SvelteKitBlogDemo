@@ -17,7 +17,9 @@ const config = {
   ],
 
   kit: {
-    adapter: adapter(),
+    adapter: adapter({
+             pages: "docs",
+          }),
 
     // remove this if you don't want prerendering
     prerender: {
